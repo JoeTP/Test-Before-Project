@@ -9,6 +9,14 @@ package dbtest;
  *
  * @author Youssif
  */
-public class DataAccessControlImpl {
+public class DataAccessControlImpl implements  DataAccessControl{
+
+    @Override
+    public boolean insert(User user) {
+        int x,y;
+        x = 50;
+        y = 80;
+        return (x>y);
+    }
     
 }
