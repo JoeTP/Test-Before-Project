@@ -14,10 +14,10 @@ import java.sql.SQLException;
 public interface DataAccessControl {
     boolean insert(User user);
     
-    public  boolean update(User user) throws SQLException; 
+    default public boolean update(User user) throws SQLException {return false;}; 
     
-    boolean delete(User user) throws SQLException;
+    default boolean delete(User user) throws SQLException{return false;};
     
-    User firstRecord() throws SQLException;
+    default User firstRecord() throws SQLException {return null;};
     
 }
