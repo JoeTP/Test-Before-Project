@@ -22,6 +22,9 @@ public class Dbtest extends Application {
         
         stage.setScene(scene);
         stage.show();
+        stage.show();
+        stage.show();
+        stage.show();
     }
 
     /**
