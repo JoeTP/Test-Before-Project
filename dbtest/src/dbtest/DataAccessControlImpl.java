@@ -5,10 +5,29 @@
  */
 package dbtest;
 
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
 /**
  *
  * @author Youssif
  */
-public class DataAccessControlImpl {
+public class DataAccessControlImpl implements DataAccessControl{
+
+    @Override
+    public boolean insert(User user) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public boolean update(User user) throws SQLException {
+        System.out.println("The update method");
+        //
+        //
+        //
+        //
+        //
+        return false;
+    }
     
 }
