@@ -5,6 +5,8 @@
  */
 package dbtest;
 
+import java.sql.SQLException;
+
 /**
  *
  * @author Youssif
@@ -19,4 +21,12 @@ public class DataAccessControlImpl implements  DataAccessControl{
         return (x>y);
     }
     
+
+
+      public User firstRecord() throws SQLException {
+          System.out.println("fhdjgjhsdf");
+          
+          return null;};
+
+   
 }
