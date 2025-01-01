@@ -5,10 +5,20 @@
  */
 package dbtest;
 
+import java.sql.SQLException;
+
 /**
  *
  * @author Youssif
  */
-public class DataAccessControlImpl {
-    
+public class DataAccessControlImpl implements DataAccessControl{
+      public User firstRecord() throws SQLException {
+          System.out.println("fhdjgjhsdf");
+          
+          return null;};
+
+    @Override
+    public boolean insert(User user) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
